@@ -6,12 +6,13 @@ import {getFirestore} from "firebase/firestore"
 import {getStorage} from "firebase/storage"
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APIKEY,
-  authDomain: process.env.REACT_DOMAIN,
-  projectId: process.env.REACT_PROJECTID,
-  storageBucket: process.env.REACT_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_ID,
+  apiKey: "AIzaSyCClP8arkgur1oheRHAIokzMy_NHkrNuPs",
+  authDomain: "instagram-85f0e.firebaseapp.com",
+  projectId: "instagram-85f0e",
+  storageBucket: "instagram-85f0e.appspot.com",
+  messagingSenderId: "180629223247",
+  appId: "1:180629223247:web:995a7cfbd9b6b0194eb73a"
+
 };
 
 
