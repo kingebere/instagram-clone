@@ -7,8 +7,8 @@ export default NextAuth({
     GoogleProvider({
         
 
-      clientId: REACT_GOOGLE_CLIENT_ID,
-      clientSecret: REACT_GOOGLE_CLIENT_SECRET,
+      clientId: GOOGLE_CLIENT_ID,
+      clientSecret: GOOGLE_CLIENT_SECRET,
     }),
     // ...add more providers here
   ],
